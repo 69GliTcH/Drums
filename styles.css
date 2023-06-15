@@ -97,7 +97,7 @@ footer {
   color: #DBEDF3;
   font-family: monospace;
   text-shadow: 3px 0 #9113bf;
-  /* line-height: 11; */
+  line-height: 16;
   font-weight: 700;
   width: 230px;
   height: 230px;
@@ -126,6 +126,7 @@ footer {
     width: 400px;
     height: 400px;
     background-size: 400px;
+      line-height: 26;
   }
   footer{
     font-size: 35px;
