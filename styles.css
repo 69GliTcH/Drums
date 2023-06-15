@@ -1,0 +1,128 @@
+body {
+  background: black;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: monospace;
+  text-shadow: 5px 0 #9113bf;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url(images/kick.png);
+  background-position: center;
+  background-size: 230px;
+}
+
+.a {
+  background-image: url(images/crash.png);
+  background-position: center;
+  background-size: 230px;
+}
+
+.s {
+  background-image: url(images/snare.png);
+  background-position: center;
+  background-size: 230px;
+}
+
+.d {
+  background-image: url(images/tom1.png);
+  background-position: center;
+  background-size: 230px;
+}
+
+.j {
+  background-image: url(images/tom2.png);
+  background-position: center;
+  background-size: 230px;
+}
+
+.k {
+  background-image: url(images/tom3.png);
+  background-position: center;
+  background-size: 230px;
+}
+
+.set {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0 90px;
+  width: 100%;
+  height: 80vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  transform: scale(1.06, 1.06);
+  opacity: 0.5;
+}
+.drum {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  outline: none;
+  border: 0;
+  font-size: 2rem;
+  color: #DBEDF3;
+  font-family: monospace;
+  text-shadow: 3px 0 #9113bf;
+  /* line-height: 11; */
+  font-weight: 700;
+  width: 230px;
+  height: 230px;
+  margin: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width:991px) {
+  
+  header h1{
+    font-size: 9em;
+    margin-top: 70px;
+  }
+  .set{
+    margin-top: 180px;
+    gap: 0 100px;
+    background: transparent;
+    height: 100%;
+  }
+  .drum{
+    width: 400px;
+    height: 400px;
+    background-size: 400px;
+  }
+  footer{
+    font-size: 35px;
+  }
+}
